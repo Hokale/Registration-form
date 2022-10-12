@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body
+{
+    font-family: "Lato";
+    background-color: #341f97;
+}
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #341f97;    
+}
+.Form input{
+    background-color: transparent;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 15px;
+}
+.Form input,
+  .Form button {
+    display: block;
+    width: 100%;
+  }
+  .Form input:focus {
+    outline: none;
+  }
+  .Form button {
+    padding: 20px 0;
+    border: none;
+    border-radius: 100px;
+    background-color: #fff;
+    color: #341f97;
+    font-size: 22px;
+    transition: 0.4s all;
+  }
+  .Form button:hover{
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  cursor: pointer;
+  }
+  .submit {
+    border: none;
+    padding: 15px 35px;
+    background-color: #341f97;
+    color: #fff;
+    border-radius: 27px;
+    transition: 0.4s all;
+  }
+  .submit:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #341f97;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  }
+  .data {
+    display: block;
+    min-width:  300px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border-radius: 100px;
+    border: 2px solid transparent;
+    transition: 0.4s all;
+  }
+  
+  .data:hover {
+    cursor: pointer;
+    border: 2px solid #341f97;
+    color: #341f97;
+  }
+  .data.active {
+    background-color: #341f97;
+    color: #fff;
+  }
