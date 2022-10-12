@@ -1,5 +1,6 @@
 # Registration-Form
 what is Registaration form?
+
 Form is usually defined inside the <form> tag in conventional HTML code and also in ReactJS. It can have the usual form submission behavior that can take to a new page but that will not make use of react full potential, instead, as we all know it is done using react components.
 
 User-interface:
